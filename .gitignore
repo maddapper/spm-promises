@@ -95,3 +95,4 @@ Carthage/
 *.tmPreferences.cache
 *.stTheme.cache
 *.sublime-workspace
+.swiftpm
