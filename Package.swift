@@ -22,94 +22,19 @@
 import PackageDescription
 
 let package = Package(
-  name: "Promises",
+  name: "FSLPromises",
   products: [
     .library(
-      name: "FBLPromises",
+      name: "FSLPromises",
       type: .dynamic,
       targets: [
-        "FBLPromises",
-      ]
-    ),
-    .library(
-      name: "FBLPromisesTestHelpers",
-      targets: [
-        "FBLPromisesTestHelpers",
-      ]
-    ),
-    .library(
-      name: "Promises",
-      targets: [
-        "Promises",
-      ]
-    ),
-    .library(
-      name: "PromisesTestHelpers",
-      targets: [
-        "PromisesTestHelpers",
+        "FSLPromises",
       ]
     ),
   ],
   targets: [
     .target(
-      name: "FBLPromises"
-    ),
-    .target(
-      name: "FBLPromisesTestHelpers",
-      dependencies: [
-        "FBLPromises",
-      ]
-    ),
-    .testTarget(
-      name: "FBLPromisesTests",
-      dependencies: [
-        "FBLPromisesTestHelpers",
-      ]
-    ),
-    .testTarget(
-      name: "FBLPromisesInteroperabilityTests",
-      dependencies: [
-        "FBLPromisesTestHelpers",
-        "PromisesTestHelpers",
-      ]
-    ),
-    .testTarget(
-      name: "FBLPromisesPerformanceTests",
-      dependencies: [
-        "FBLPromisesTestHelpers",
-      ]
-    ),
-    .target(
-      name: "Promises",
-      dependencies: [
-        "FBLPromises",
-      ]
-    ),
-    .target(
-      name: "PromisesTestHelpers",
-      dependencies: [
-        "Promises",
-      ]
-    ),
-    .testTarget(
-      name: "PromisesTests",
-      dependencies: [
-        "PromisesTestHelpers",
-      ]
-    ),
-    .testTarget(
-      name: "PromisesInteroperabilityTests",
-      dependencies: [
-        "FBLPromisesTestHelpers",
-        "PromisesTestHelpers",
-      ]
-    ),
-    .testTarget(
-      name: "PromisesPerformanceTests",
-      dependencies: [
-        "FBLPromisesTestHelpers",
-        "PromisesTestHelpers",
-      ]
+      name: "FSLPromises"
     ),
   ]
 )

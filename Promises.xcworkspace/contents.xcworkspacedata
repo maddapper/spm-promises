@@ -4,7 +4,4 @@
    <FileRef
       location = "group:Promises.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:Promises.playground">
-   </FileRef>
 </Workspace>

@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
-  s.name        = 'PromisesObjC'
-  s.version     = '2.2.0'
+  s.name        = 'FSLPromisesObjC'
+  s.version     = '2.2.1'
   s.authors     = 'Google Inc.'
   s.license     = { :type => 'Apache-2.0', :file => 'LICENSE' }
-  s.homepage    = 'https://github.com/google/promises'
-  s.source      = { :git => 'https://github.com/google/promises.git', :tag => s.version }
+  s.homepage    = 'https://github.com/maddapper/promises'
+  s.source      = { :git => 'https://github.com/maddapper/promises.git', :tag => s.version }
   s.summary     = 'Synchronization construct for Objective-C'
   s.description = <<-DESC
 
@@ -12,16 +12,16 @@ Pod::Spec.new do |s|
   Objective-C to facilitate writing asynchronous code.
                      DESC
 
-  s.ios.deployment_target  = '9.0'
+  s.ios.deployment_target  = '11.0'
   s.osx.deployment_target  = '10.10'
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
-  s.module_name = 'FBLPromises'
+  s.module_name = 'FSLPromises'
   s.prefix_header_file = false
   s.header_dir = "./"
   s.public_header_files = "Sources/#{s.module_name}/include/**/*.h"
-  s.private_header_files = "Sources/#{s.module_name}/include/FBLPromisePrivate.h"
+  s.private_header_files = "Sources/#{s.module_name}/include/FSLPromisePrivate.h"
   s.source_files = "Sources/#{s.module_name}/**/*.{h,m}"
   s.pod_target_xcconfig = {
     'DEFINES_MODULE' => 'YES'

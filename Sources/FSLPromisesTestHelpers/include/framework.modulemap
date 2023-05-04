@@ -1,0 +1,4 @@
+framework module FSLPromisesTestHelpers {
+  header "FSLPromisesTestHelpers.h"
+  header "FSLPromisesTestInteroperability.h"
+}
