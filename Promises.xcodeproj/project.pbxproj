@@ -685,6 +685,7 @@
 				);
 				INFOPLIST_FILE = Promises.xcodeproj/FSLPromisesInteroperabilityTests_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_NAME)";
@@ -713,6 +714,7 @@
 				);
 				INFOPLIST_FILE = Promises.xcodeproj/FSLPromisesInteroperabilityTests_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_NAME)";
@@ -741,6 +743,7 @@
 				);
 				INFOPLIST_FILE = Promises.xcodeproj/FSLPromisesPerformanceTests_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_NAME)";
@@ -768,6 +771,7 @@
 				);
 				INFOPLIST_FILE = Promises.xcodeproj/FSLPromisesPerformanceTests_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_NAME)";
@@ -795,6 +799,7 @@
 				);
 				INFOPLIST_FILE = Promises.xcodeproj/FSLPromisesTests_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_NAME)";
@@ -822,6 +827,7 @@
 				);
 				INFOPLIST_FILE = Promises.xcodeproj/FSLPromisesTests_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_NAME)";
@@ -849,6 +855,7 @@
 				);
 				INFOPLIST_FILE = Promises.xcodeproj/FSLPromisesTestHelpers_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MODULEMAP_FILE = "$(SRCROOT)/Sources/FSLPromisesTestHelpers/include/framework.modulemap";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -880,6 +887,7 @@
 				);
 				INFOPLIST_FILE = Promises.xcodeproj/FSLPromisesTestHelpers_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MODULEMAP_FILE = "$(SRCROOT)/Sources/FSLPromisesTestHelpers/include/framework.modulemap";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
