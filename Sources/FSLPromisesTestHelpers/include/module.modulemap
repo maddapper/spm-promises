@@ -1,4 +1,4 @@
-module FBLPromisesTestHelpers {
-  header "FBLPromisesTestHelpers.h"
-  header "FBLPromisesTestInteroperability.h"
+module FSLPromisesTestHelpers {
+  header "FSLPromisesTestHelpers.h"
+  header "FSLPromisesTestInteroperability.h"
 }
